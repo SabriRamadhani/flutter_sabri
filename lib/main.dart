@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'theDrawer.dart';
+import 'view/PersonalData.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/personal',
       routes: {
         '/': (BuildContext context) => Home(),
-//        '/personal': (BuildContext context) => PersonalData(),
+        '/personal': (BuildContext context) => PersonalData(),
       },
     );
   }
